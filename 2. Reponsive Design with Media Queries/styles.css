@@ -82,7 +82,7 @@ For each break point, the background of .common-breakpoints must change. You may
   .common-breakpoints {
     background-color: rgb(221, 15, 0);
   }
-}
+
 
 @media screen and (min-width: 1000px){
   .common-breakpoints {

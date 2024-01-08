@@ -42,63 +42,90 @@
     /* TODO 1.1.1 Set the display of this div to flex*/
     display:flex;
     /* TODO 1.1.2 Set the flex direction to row. Then set it to column. What's the difference?*/
+    flex-direction: row;
     /* Answer: */
+    /*the contents were aligned side by side horizontally*/
+
+
     /* TODO 1.1.3 Set the flex direction to row. Then enable flex wrap. What does wrap do? */
+    flex-wrap: wrap;
     /* Answer: */
+    /* no visible changes besides from the elements are now wrapped. */
+
+
     /* Todo 1.1.4 Set the gap of the container to 10px. Now change it to 20px. What does gap do? */
+    gap: 20px;
     /* Answer: */
+    /*it adds some sort of margin or padding between each element.*/
 
 }
 
 /* TODO 2 */
 .todo-2-container{
     /* TODO 1.2.1 Set the display to flex and flex direction to row */
+    display: flex;
+    flex-direction: row;
     /* TODO 1.2.2 Justify the content to start, then end, then center. Make sure to see how the position of the divs change*/
+    justify-content: end;
     /* TODO 1.2.3 Align the items start, then end, then center. Make sure to see how the position of the divs change*/
+    align-items: center;
     /* TODO 1.2.4 Set the flex direction to column and play around with justify-content and align-items */
+    flex-direction:column
 }
 
 /* TODO 3 */
 .todo-3-container{
     /* Todo 1.3.1 Set the display to flex and align items center */
+    display: flex;
+    align-items: center;
 }
 
 /* Select the red box */
-.todo-3-container __{
+.todo-3-container .red.box{
     /* Todo 1.3.2 Align this item to start. Try out the other possible values. What happens? */
+    align-items: end;
     /* Answer: */
 }
 
 /* Select the green box */
-.todo-3-container __{
+.todo-3-container .green.box{
     /* Todo 1.3.3 Set flex grow to 1 */
+    flex-grow: 1;
 }
 
 /* Select the blue box */
-.todo-3-container __{
+.todo-3-container .blue.box{
     /* Todo 1.3.4 Set flex grow to 2. Try out the other values. What happens? */
+    flex-grow: 6;
     /* Answer: */
+    /*It stretches the blue box element to the right*/
 }
 
 /* TODO 4 */
 .todo-4-container{
     /* Set the display to flex */
+    display:flex;
 }
 
 /* Select the red box */
-.todo-4-container ___{
+.todo-4-container .red.box{
     /* Set margin left to auto.  */
+    margin-left: auto;
 }
 
 /* Select the green box */
-.todo-4-container __{
+.todo-4-container .green.box{
     /* Set margin right to auto */
+    margin-right: auto;
 }
 
 /* Select the blue box */
-.todo-4-container ___{
+.todo-4-container .blue.box{
     /* Set the order to  1. Try chaging the order of the other divs. What does order do?*/
+    order: 1;
     /* Answer: */
+    /*it changes the appearance of the elements however it is 
+    is only a subtle difference because of the margin-left and margin-right tags beforehand*/
 }
 
 
